@@ -4,7 +4,7 @@
 /* 🔥 LOCAL FONT (FIXED RENDERING) */
 @font-face {
   font-family: "Mrs Saint Delafield";
-  src: url("public/fonts/MrsSaintDelafield-Regular.ttf") format("truetype");
+  src: url("/fonts/MrsSaintDelafield-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: block;

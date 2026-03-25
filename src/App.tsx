@@ -139,22 +139,22 @@ const Navbar = () => {
 const Portfolio = () => {
   const illustrations = [
     // First two images are the attached ones
-    { id: 1, src: 'illus/wide2.JPG', aspect: 'aspect-video' },
-    { id: 2, src: 'illus/wide5.JPG', aspect: 'aspect-video' },
-    { id: 3, src: 'illus/wide7.JPG', aspect: 'aspect-video' },
-    { id: 4, src: 'illus/wide6.JPG', aspect: 'aspect-[1280/874]'},
-    { id: 5, src: 'illus/wide11.JPG', aspect: 'aspect-[1280/877]' },
-    { id: 6, src: 'illus/wide4.JPG', aspect: 'aspect-[1280/874]' },
-    { id: 7, src: 'illus/wide1.JPG', aspect: 'aspect-[1280/875]' },
-    { id: 8, src: 'illus/wide10.JPG', aspect: 'aspect-[1280/875]' },
-    { id: 9, src: 'illus/wide3.JPG', aspect: 'aspect-[1280/875]' },
-    { id: 10, src: 'illus/wide8.JPG', aspect: 'aspect-[1280/875]' },
-    { id: 11, src: 'illus/wide9.JPG', aspect: 'aspect-[1280/875]' },
-    { id: 12, src: 'illus/banana.JPG', aspect: 'aspect-[1280/1080]' },
-    { id: 13, src: 'illus/eeping.JPG', aspect: 'aspect-[2425/2720]' },
-    { id: 14, src: 'illus/coke.JPG', aspect: 'aspect-[1080/1920]' },
-    { id: 15, src: 'illus/tulips.JPG', aspect: 'aspect-[2480/3508]' },
-    { id: 16, src: 'illus/menpippa.JPG', aspect: 'aspect-[2480/3508]' },
+    { id: 1, src: '/illus/wide2.JPG', aspect: 'aspect-video' },
+    { id: 2, src: '/illus/wide5.JPG', aspect: 'aspect-video' },
+    { id: 3, src: '/illus/wide7.JPG', aspect: 'aspect-video' },
+    { id: 4, src: '/illus/wide6.JPG', aspect: 'aspect-[1280/874]'},
+    { id: 5, src: '/illus/wide11.JPG', aspect: 'aspect-[1280/877]' },
+    { id: 6, src: '/illus/wide4.JPG', aspect: 'aspect-[1280/874]' },
+    { id: 7, src: '/illus/wide1.JPG', aspect: 'aspect-[1280/875]' },
+    { id: 8, src: '/illus/wide10.JPG', aspect: 'aspect-[1280/875]' },
+    { id: 9, src: '/illus/wide3.JPG', aspect: 'aspect-[1280/875]' },
+    { id: 10, src: '/illus/wide8.JPG', aspect: 'aspect-[1280/875]' },
+    { id: 11, src: '/illus/wide9.JPG', aspect: 'aspect-[1280/875]' },
+    { id: 12, src: '/illus/banana.JPG', aspect: 'aspect-[1280/1080]' },
+    { id: 13, src: '/illus/eeping.JPG', aspect: 'aspect-[2425/2720]' },
+    { id: 14, src: '/illus/coke.JPG', aspect: 'aspect-[1080/1920]' },
+    { id: 15, src: '/illus/tulips.JPG', aspect: 'aspect-[2480/3508]' },
+    { id: 16, src: '/illus/menpippa.JPG', aspect: 'aspect-[2480/3508]' },
   ];
 
   return (
