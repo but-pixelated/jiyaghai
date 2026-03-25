@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Outfit:wght@400;700&display=swap');
+@import "tailwindcss";
+
+/* 🔥 LOCAL FONT (FIXED RENDERING) */
+@font-face {
+  font-family: "Mrs Saint Delafield";
+  src: url("public/fonts/MrsSaintDelafield-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-handwriting: "Mrs Saint Delafield", cursive;
+  --font-round: "Outfit", sans-serif;
+  
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-royal-black: #0a0a0a;
+}
+
+:root {
+  --paper: #fcfcfc;
+  --ink: #111111;
+}
+
+.dark {
+  --paper: #0a0a0a;
+  --ink: #fcfcfc;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--paper);
+    color: var(--ink);
+    @apply font-sans antialiased transition-colors duration-500;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+/* 🔥 MINIMAL FIX (JUST ENOUGH, NO OVERHACKING) */
+.font-handwriting {
+  line-height: 1.2;
+  display: inline-block;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px currentColor;
+  color: transparent;
+}
+
+.dark .text-stroke {
+  -webkit-text-stroke: 1px rgba(252, 252, 252, 0.3);
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
